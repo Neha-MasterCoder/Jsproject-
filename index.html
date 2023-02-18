@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <title>FIRST TIME DOING JAVASCRIPT</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <style>
+        .box {
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+        }
+
+        body {
+            display: flex;
+            width: 100%;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            background:linear-gradient(to right, rgb(191, 191, 255),rgb(236, 160, 255),white) ;
+        }
+
+        #num_1 {
+            margin-bottom: 16px;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <h1>Calculator</h1>
+        <input type="number" id="num_1" placeholder="first number">
+        <input type="number" id="num_2" placeholder="second number"><br>
+        <button onclick="subtract()"> Subtract the numbers</button><br>
+        <button onclick="add()"> Add the numbers </button> <br>
+        <button onclick="multiply()"> Multiply the numbers</button> <br>
+        <button onclick="divide()"> Divide the numbers</button><br>
+
+        <div id="show-data"></div>
+    </div>
+    <!-- <script src="./js/index.js"> </script> -->
+    <script src="./js/Events.js"> </script>
+
+
+
+
+
+</body>
+
+</html>
