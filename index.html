@@ -3,6 +3,7 @@
 <head>
     <title>FIRST TIME DOING JAVASCRIPT</title>
     <link rel="stylesheet" href="./css/index.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"> 
     <style>
         .box {
             display: flex;
@@ -24,6 +25,25 @@
         }
         h1{
             text-align: center;
+
+        }
+
+        @media only screen and (max-width: 500px) {
+            .box {
+            display: flex;
+            flex-direction: column;
+            width: 80%; 
+            
+         }
+         input {
+            padding: 5.99px 2px;
+            border-radius: 7px;
+         }
+
+         button {
+            padding: 5.99px 2px;
+            border-radius: 7px;
+         }
         }
     </style>
 </head>
